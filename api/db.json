@@ -1,0 +1,41 @@
+{
+  "list":[
+        {
+          "id": 0,
+          "name": "Turnover",
+          "email": "turnover@@rfc.com",
+          "data": "04/14/2017",
+          "record": "Peripheral Vision",
+          "location": "Virginia Beach, VA",
+          "bestsong": "New Scream"
+        },
+        {
+          "id": 1,
+          "name": "A$AP Rocky",
+          "email": "flacko@asapmob.com",
+          "data": "03/20/2017",
+          "record": "AT.LONG.LAST.A$AP",
+          "location": "NYC,NY",
+          "bestsong": "L$D"
+        },
+        {
+          "id": 2,
+          "name": "Brand New",
+          "email": "jesselacy@brandnewrock.com",
+          "data": "12/08/2017",
+          "record": "The Devil and God are Raging in...",
+          "location": "Long Island,NY",
+          "bestsong": "Millstone"
+        },
+        {
+          "id": 3,
+          "name": "Childish Gambino",
+          "email": "donald@childishgambino.com",
+          "data": "08/06/2017",
+          "record": "Because The Internet",
+          "location": "Atlanta,GA",
+          "bestsong": "3005"
+        }
+  ]
+ 
+}
