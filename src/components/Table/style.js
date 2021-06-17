@@ -22,6 +22,7 @@ export const Container=styled.div`
 width: 100%;
 background-color: white;
 border-radius: 5px;
+overflow-x: auto;
 `;
 
 export const Tablee=styled.table`

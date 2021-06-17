@@ -1,19 +1,13 @@
 import React, { useContext } from 'react'
 import { Div, Box, Select } from "../style";
 import { CountNumber } from '../../../Context/Count';
-import { ListData } from "../../../Context/List";
 const Right = () => {
-  const [count, setCount] = useContext(CountNumber);
-  const [data, setData] = useContext(ListData);
-  const handleChange=(e)=>{
-          setCount(e.target.value)
-  }
+  const [count, dispatchCount] = useContext(CountNumber);
   return(
     <Div.Right>
-      <Box>Show: <Select onChange={handleChange} value={count}>
+      <Box>Show: <Select onChange={(e) => dispatchCount({type: 'change' , payload: {value: e.target.value}})} value={count.current} >
         {
-          
-          data.map((v, i) => <Select.Option key={i} value={i}>{i + 1}</Select.Option>)
+          count.length.map((v, i) => <Select.Option key={i} value={i+1}>{i + 1}</Select.Option>)
         }
         </Select></Box>
     </Div.Right>
